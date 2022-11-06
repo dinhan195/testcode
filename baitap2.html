@@ -3,8 +3,85 @@
     <head>
         <meta charset="UTF-8">
         <title>Đăng kí học viên</title>
-        <link rel="stylesheet" href="baitap2.css">
     </head>
+    <style>
+         body {
+            background-color: rgb(242, 242, 166);
+            color: blue;
+            
+            
+        }
+        .header {
+            display: flexbox;
+            background-color: rgb(194, 243, 226);
+            color: blue;
+            font-family: monospace;
+            font-size: 20px;
+        }
+        .nam {
+            color: rgb(20, 19, 19);
+        
+        }
+        .form_name {
+            margin-left: 37px;
+            width: 200px;
+            border: 3px inset #f2edef;
+        }
+        .input_birth {
+            margin-top: 8px;
+            margin-left: 33px;
+            width: 110px;
+            border: 3px inset #f2edef;
+            
+        }
+        .checkbox {
+            margin-top: 8px;
+            margin-left: 45px;
+            border: 4px inset #f2edef;
+        }
+        .label_address {
+           
+        }
+        .address {
+            margin-top: 0px;
+            margin-left: 51px;
+            height: 50px;
+            white-space: 50px;
+            border: 3px inset #f2edef;
+        }
+        .option {
+            margin-top: 8px;
+            margin-left: 72px;
+            width: 100px;
+            border: 3px inset #f2edef;
+           
+        }
+        .email {
+            margin-top: 8px;
+            margin-left: 60px;
+            width: 150px;
+            border: 3px inset #f2edef;
+        }
+        .phone {
+            margin-top: 8px;
+            margin-left: 31px;
+            width: 150px;
+            border: 3px inset #f2edef;
+        }
+        .button{
+            margin-left: 105px;
+            margin-top: 8px;
+        }
+        .dangky {
+            width: 75px;
+            border: 3px outset #f2edef;
+        }
+        .nhaplai {
+            width: 75px;
+            border: 3px outset #f2edef;
+        }
+ 
+    </style>
      <body>
         <h1 class="header">ĐĂNG KÍ HỌC VIÊN</h1>
         <form action="" class="form_container">
@@ -19,12 +96,13 @@
         <div>
             <label>Giới tính</label>
            <input class="checkbox" type="radio" name="gender" value="">
-            Nam
+            <label class="nam">Nam</label>
             <input type="radio" name="gender" value="">
-            Nữ
+            <label class="nam">Nữ</label>
         </div>
+        
         <div>
-            <label>Địa chỉ</label>
+            <label class="label_address">Địa chỉ</label>
             <input class="address" type="textarea rows=" cols="" ></textarea>
         </div>
         <div>
@@ -46,8 +124,8 @@
             <input class="phone" type="number" name="phone" value="">
         </div>
         <div class="button">
-            <button type="submit" name="register" value="Đăng kí">Đăng ký</button>
-            <button type="reset" name="" value="">Nhập lại</button>
+            <button class="dangky" type="submit" name="register" value="Đăng kí">Đăng ký</button>
+            <button class="nhaplai" type="reset" name="" value="">Nhập lại</button>
         </div>
         </form>
     </body>
