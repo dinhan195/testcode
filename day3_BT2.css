@@ -1,0 +1,27 @@
+body {
+    
+}
+
+.box {
+    position: absolute;
+    width: 600px;
+    height: 380px;
+    border: 1px solid rgb(214, 212, 212);
+    background-image: url(https://tipsmake.com/data2/images/download-wallpaper-surface-laptop-4-picture-2-4pr7Ugx6f.jpg);
+}
+.box123 {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.product {
+    padding-top: 20px;
+}
+.box123>header {
+    color: blue;
+}
+
+.book {
+    
+    padding: 10px;
+}
