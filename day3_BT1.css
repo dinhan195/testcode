@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+
+}
+.head {
+    border: 1px solid rgb(24, 120, 125);
+    background: rgb(24, 120, 125);
+    height: 100px;
+    width: 970px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.header {
+    padding-top: 20px;
+}
+.contentx {
+    padding: 10px
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin:0px;
+    width: 50px;
+}
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    margin:0px;
+    width: 0px;   
+}
+.box {
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    padding: 0px;
+}
+.label {
+    padding: 10px;
+}
