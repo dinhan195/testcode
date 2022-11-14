@@ -1,0 +1,39 @@
+
+#navbar {
+    padding: 0%;
+    height: 50px;
+}
+@media screen and (min-width: 800px) {
+#main-siderbar {
+    background: rgb(49, 49, 49);
+    border-bottom: 0.5px solid white ;
+}
+}
+@media screen and (min-width: 800px) {
+#sidebar {
+    background: rgb(49, 49, 49);
+}
+}
+@media screen and (min-width: 800px) {
+.user-sidebar {
+    border-bottom: 1px solid white;
+}
+}
+#main {
+    margin-top: 0px;
+    padding-bottom: 500px;
+    background: rgb(224, 220, 224);
+    position: relative;
+    height: px;}
+
+    
+#footer {
+    background: rgb(180, 183, 180);
+    padding-left:20px;
+}
+.card-header {
+    text-align: center;
+}
+.footer {
+    margin-top:00px;
+}
