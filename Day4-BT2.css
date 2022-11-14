@@ -1,0 +1,35 @@
+body {
+    background: rgb(143, 158, 167);
+    !important
+}
+#main-sidebar {
+    padding: 0%;
+}
+.main1 {
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.right1 {
+
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 5px;
+}
+.right2 {
+   
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 5px;
+}
+.main2 {
+    padding: 30px;
+    background-origin: padding-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+@media screen and (min-width: 800px) {
+    .sidebar {
+        
+    }
+}
